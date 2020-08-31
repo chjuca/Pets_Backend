@@ -1,7 +1,6 @@
 import User from '../models/User';
 import Credential from '../models/Credential';
 import { sequelize } from "../database/database"
-import e from 'express';
 
 
 export async function createUser(req, res) {
